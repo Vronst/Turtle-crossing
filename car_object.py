@@ -22,7 +22,7 @@ class Cars:
             new_car.penup()
             # new_car.spawn()
             # new_car.level = level
-            new_car.goto(x=310, y=random.randint(-230, 250))
+            new_car.goto(x=310, y=random.randint(-230, 230))
             self.cars.append(new_car)
 
     def move(self):

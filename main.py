@@ -2,13 +2,14 @@ from turtle import Screen
 import time
 from player import Player
 from car_object import Cars
-from scoreboard import Scoreboard
+from scoreboard import Scoreboard, Finish
 
 
 screen = Screen()
 player = Player()
 scoreboard = Scoreboard()
 car = Cars()
+finish_line = Finish()
 
 game_is_on = True
 
